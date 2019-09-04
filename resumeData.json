@@ -117,25 +117,25 @@
       {
         "title":"Tinder/Bumble Swipe Automation",
         "category":"ML based swiping for lazy people",
-        "image":"pyswiper.png",
+        "image":"pyswiper-min.png",
         "url":"https://github.com/scirop/pytinder"
       },
       {
         "title":"Dog Breed detection webapp",
         "category":"For people thinking that their dog is fancier than others",
-        "image":"doggles.jpg",
+        "image":"doggles-min.png",
         "url":"https://doggles.fun"
       },
       {
         "title":"Resume Website",
         "category":"A React based resume website template",
-        "image":"resume-website.jpg",
+        "image":"resume-website-min.png",
         "url":"http://scirop.github.io"
       },
       {
         "title":"Sparky",
         "category":"(MVP Only) A react-native and python based application for detecting parking spaces.",
-        "image":"parking.png",
+        "image":"parking-min.png",
         "url":"http://github.com/scirop/sparky"
       }
     ]
