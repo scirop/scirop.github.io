@@ -115,9 +115,9 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Tinder Automation",
-        "category":"My laziness with dating",
-        "image":"tinder.jpg",
+        "title":"Tinder/Bumble Swipe Automation",
+        "category":"ML based swiping for lazy people",
+        "image":"pyswiper.jpg",
         "url":"https://github.com/scirop/pytinder"
       },
       {
