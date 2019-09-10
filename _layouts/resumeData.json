@@ -1,0 +1,155 @@
+{
+  "main": {
+    "name":"Swarup Sahoo",
+    "occupation":"Machine Learning Engineer",
+    "description":"I am looking for a job. Preferably in Austin. K Thanks Bye.",
+    "image":"profilepic.jpg",
+    "bio":"I am pretty good at programming in Python and Machine Learning and integrating multiple things (databases, APIs, statistics, coffee, puppy's tears) to build out an application. That should technically make me a full-stack MLE?",
+    "contactmessage":"Please reach out to me. I'm so lonely.",
+    "email": "swarupsahoo@icloud.com",
+    "phone": "302-339-3159",
+    "address":{
+      "street":"USAA",
+      "city":"San Antonio",
+      "state":"TX",
+      "zip": "78249"
+    },
+    "website": "http://www.swarupsahoo.com",
+    "resumedownload":"/resume.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/nitrkl.swarup",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/swarup-utexas/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/swarupsahoo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/scirop",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I am really fast with problem solving (in the context of being an MLE)",
+    "education":[
+      {
+        "school":"The University of Texas at Austin",
+        "degree":"Masters in Operations Research",
+        "graduated":"May 2018",
+        "description":"Tried to learn a fuck tonne about Stats and Optimization. Used that to evaluate my poor life choices."
+      },
+      {
+        "school":"National Institute of Technology Rourkela",
+        "degree":"Mechanical Engineering",
+        "graduated":"May 2014",
+        "description":"Learnt how to cook ramen in a water heater."
+      }
+    ],
+    "work":[
+      {
+        "company":"USAA, San Antonio",
+        "title":"Data Scientist",
+        "years":"June 2018 - Present",
+        "description":"Building ML applications using Python, ReactJS, D3JS, SQL, Hadoop and sadness."
+      },
+      {
+        "company":"MD Anderson Cancer Center, Houston",
+        "title":"Graduate Researcher",
+        "years":"Jan 2019 - May 2019",
+        "description":"Found a cure for Cancer"
+      },
+      {
+        "company":"Dell Medical School, Austin",
+        "title":"Graduate Researcher",
+        "years":"Sep 2018 - Dec 2018",
+        "description":"Did not find a cure for Cancer"
+      },
+      {
+        "company":"Bajaj Auto Ltd, Pune(India)",
+        "title":"Senior Engineer, Supply Chain Analytics",
+        "years":"Jul 2014 - Jun 2016",
+        "description":"Survived depression"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Machine Learning",
+        "level":"70%"
+      },
+      {
+        "name":"Python",
+        "level":"90%"
+      },
+      {
+        "name":"NLP",
+        "level":"50%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"40%"
+      },
+      {
+        "name":"SQL",
+        "level":"80%"
+      },
+      {
+        "name":"Neo4j",
+        "level":"50%"
+      },
+      {
+        "name":"Drama",
+        "level":"100%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Tinder/Bumble Swipe Automation",
+        "category":"ML based swiping for lazy people",
+        "image":"pyswiper-min.png",
+        "url":"https://github.com/scirop/pytinder"
+      },
+      {
+        "title":"Dog Breed detection webapp",
+        "category":"For people thinking that their dog is fancier than others",
+        "image":"doggles-min.png",
+        "url":"https://doggles.fun"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website-min.png",
+        "url":"http://scirop.github.io"
+      },
+      {
+        "title":"Sparky",
+        "category":"(MVP Only) A react-native and python based application for detecting parking spaces.",
+        "image":"parking-min.png",
+        "url":"http://github.com/scirop/sparky"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Swarup could have died as an Engineer but he lives long enough to see himself become an industry buzzword",
+        "user":"Steve Jobs' Butler"
+      },
+      {
+        "text":"Why is he still alive?",
+        "user":"Boss Bane"
+      }
+    ]
+  }
+}
