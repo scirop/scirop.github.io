@@ -1,0 +1,35 @@
+{% assign headerdata = site.data.resumedata.main %}
+
+<nav id="nav-wrap">
+
+   <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+  <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+   <ul id="nav" class="nav">
+      <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+      <li><a class="smoothscroll" href="#about">About</a></li>
+      <li><a class="smoothscroll" href="#resume">Resume</a></li>
+      <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+      <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+      <li><a href="blog" target="_blank">Blog</a></li>
+   </ul> <!-- end #nav -->
+
+</nav> <!-- end #nav-wrap -->
+
+<div class="row banner">
+   <div class="banner-text">
+      <h1 class="responsive-headline">I'm {{headerdata.name}}.</h1>
+      <h3>I'm a {{headerdata.address.city}} based <span>{{headerdata.occupation}}</span> creating awesome and
+      effective ML applications. {{headerdata.description}}</h3>
+      <hr />
+      <ul class="social">
+        {% for item in headerdata.social %}
+         <li><a href="{{item.url}}"><i class="{{item.className}}"></i></a></li>
+        {% endfor %}
+      </ul>
+   </div>
+</div>
+
+<p class="scrolldown">
+   <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+</p>

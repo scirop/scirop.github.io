@@ -1,0 +1,78 @@
+{% assign resumedata = site.data.resumedata.resume %}
+
+<!-- Education
+----------------------------------------------- -->
+<div class="row education">
+
+   <div class="three columns header-col">
+      <h1><span>Education</span></h1>
+   </div>
+
+   <div class="nine columns main-col">
+     {% for item in resumedata.education %}
+      <div class="row item">
+         <div class="twelve columns">
+            <h3>{{item.school}}</h3>
+            <p class="info"> {{item.degree}} <span>&bull;</span> <em class="date">{{item.graduated}}</em></p>
+            <p>{{item.description}}</p>
+         </div>
+      </div> <!-- item end -->
+      {% endfor %}
+   </div> <!-- main-col end -->
+</div> <!-- End Education -->
+
+
+<!-- Work
+----------------------------------------------- -->
+<div class="row work">
+
+   <div class="three columns header-col">
+      <h1><span>Work</span></h1>
+   </div>
+
+   <div class="nine columns main-col">
+     {% for item in resumedata.work %}
+      <div class="row item">
+
+         <div class="twelve columns">
+
+            <h3>{{item.company}}</h3>
+            <p class="info">{{item.title}} <span>&bull;</span> <em class="date">{{item.years}}</em></p>
+
+            <p>{{item.description}}</p>
+
+         </div>
+
+      </div> <!-- item end -->
+      {% endfor %}
+   </div> <!-- main-col end -->
+
+</div> <!-- End Work -->
+
+
+<!-- Skills
+----------------------------------------------- -->
+<div class="row skill">
+
+   <div class="three columns header-col">
+      <h1><span>Skills</span></h1>
+   </div>
+
+   <div class="nine columns main-col">
+
+      <p>{{data.resume.skillmessage}}
+      </p>
+
+  <div class="bars">
+
+     <ul class="skills">
+       {% for item in resumedata.skills %}
+      <li><span class="bar-expand skill" style="width:{{item.level}}"></span><em>{{item.name}}</em></li>
+      {% endfor %}
+    </ul>
+
+  </div><!-- end skill-bars -->
+
+</div> <!-- main-col end -->
+
+</div> <!-- End skills -->

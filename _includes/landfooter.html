@@ -1,0 +1,22 @@
+{% assign footerdata = site.data.resumedata.main %}
+
+<div class="row">
+
+   <div class="twelve columns">
+
+      <ul class="social-links">
+        {% for item in footerdata.social %}
+         <li><a href="{{item.url}}"><i class="{{item.className}}"></i></a></li>
+        {% endfor %}
+      </ul>
+
+      <ul class="copyright">
+         <li>&copy; {{footerdata.copyleft}}</li>
+         <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+      </ul>
+
+   </div>
+
+   <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+</div>

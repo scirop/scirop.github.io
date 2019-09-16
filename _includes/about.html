@@ -1,0 +1,43 @@
+{% assign aboutdata = site.data.resumedata.main %}
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="{{ '/assets/images/profilepic.jpg' }}" alt="Swarup Sahoo" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>{{ aboutdata.bio }}
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>{{aboutdata.name}}</span><br>
+						   <span>{{aboutdata.address.street}}</span><br>
+               <span>{{aboutdata.address.city}}</span><br>
+               <span>{{aboutdata.address.state}}</span><br>
+						   <span>{{aboutdata.phone}}</span><br>
+               <span>{{aboutdata.email}}</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="{{ aboutdata.resumedownload }}" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>

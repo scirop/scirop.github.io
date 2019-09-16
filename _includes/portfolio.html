@@ -1,0 +1,33 @@
+{% assign portfoliodata = site.data.resumedata.portfolio %}
+
+<div class="row">
+
+   <div class="twelve columns collapsed">
+
+      <h1>Check Out Some of My Works.</h1>
+
+      <!-- portfolio-wrapper -->
+      <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+        {% for item in portfoliodata.projects %}
+         <div class="columns portfolio-item">
+            <div class="item-wrap">
+               <a href="{{item.url}}" title="{{item.title}}">
+                  <img alt="" src="assets/images/portfolio/{{item.image}}">
+                  <div class="overlay">
+                     <div class="portfolio-item-meta">
+                    <h5>{{item.title}}</h5>
+                        <p>{{item.category}}</p>
+                 </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+               </a>
+
+            </div>
+        </div> <!-- item end -->
+        {% endfor %}
+
+      </div> <!-- portfolio-wrapper end -->
+
+   </div> <!-- twelve columns end -->
+</div> <!-- row End -->
