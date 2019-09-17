@@ -21,18 +21,18 @@ main:
   website: http://scirop.github.io
   resumedownload: "swarup-sahoo-resume.pdf"
   social:
-  - name: facebook
-    url: http://facebook.com/nitrkl.swarup
-    className: fa fa-facebook
-  - name: linkedin
-    url: https://www.linkedin.com/in/swarup-utexas/
-    className: fa fa-linkedin
-  - name: instagram
-    url: http://instagram.com/swarupsahoo
-    className: fa fa-instagram
   - name: github
     url: http://github.com/scirop
     className: fa fa-github
+  - name: linkedin
+    url: https://www.linkedin.com/in/swarup-utexas/
+    className: fa fa-linkedin
+  - name: facebook
+    url: http://facebook.com/nitrkl.swarup
+    className: fa fa-facebook
+  - name: instagram
+    url: http://instagram.com/swarupsahoo
+    className: fa fa-instagram
   copyleft: Copyleft 2019 Swarup Sahoo
 resume:
   skillmessage: I am really fast with problem solving (in the context of being an
@@ -80,6 +80,8 @@ resume:
     level: 50%
   - name: Drama
     level: 100%
+  - name: Markdown
+    level: 80%
 portfolio:
   projects:
   - title: Tinder/Bumble Swipe Automation
@@ -104,5 +106,9 @@ testimonials:
   - text: Swarup could have died as an Engineer but he lives long enough to see himself
       become an industry buzzword
     user: Steve Jobs' Butler
-  - text: Why is he still alive?
+  - text: Calm down Data Scientist, now is not the time for Model Validation. That comes later.
     user: Boss Bane
+  - text: It's not what Swarup does. It's what he barks that defines him.
+    user: My Imaginary Pet
+  - text: He will have you at Hello World!
+    user: The developer who sit's on my left
