@@ -19,7 +19,7 @@ main:
     state: Texas
     zip: '78201'
   website: http://scirop.github.io
-  resumedownload: "swarup-sahoo-resume.pdf"
+  resumedownload: "/data/swarup-sahoo-resume.pdf"
   social:
   - name: github
     url: http://github.com/scirop
