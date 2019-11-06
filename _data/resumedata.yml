@@ -1,23 +1,25 @@
 head:
-  title: Swarup Sahoo | Requires visa sponsorship next year.
+  title: Swarup Sahoo | A dumb personal website
   author: Swarup Sahoo
   description: Swarup Sahoo's portofolio and tragedies
 main:
   name: Swarup Sahoo
   occupation: wannabe Machine Learning Engineer, technology enthusiast and wannabe blogger
-  description: I am looking for a job. Preferably in Austin. K Thanks Bye.
+  description: I am learning about life and other hopeless things.
   image: profilepic.jpg
   bio: I am pretty good at programming in Python and Machine Learning and integrating
     multiple things (databases, APIs, statistics, coffee, puppy's tears) to build
     out an application. That should technically make me a full-stack MLE?
+
+    Occasional bad jokes and serious discussions about Italian wine might be expected from me from time to time.
   contactmessage: Please reach out to me. I'm so lonely.
   email: swarupsahoo@icloud.com
-  phone: 302-339-3159
+  phone: (302)339-3159
   address:
-    street: USAA
-    city: San Antonio
+    street: Somewhere up north
+    city: Austin
     state: Texas
-    zip: '78201'
+    zip: '78727'
   website: http://scirop.github.io
   resumedownload: "/data/swarup-sahoo-resume.pdf"
   social:
@@ -67,7 +69,7 @@ resume:
     description: Survived depression
   skills:
   - name: Machine Learning
-    level: 70%
+    level: 80%
   - name: Python
     level: 90%
   - name: NLP
@@ -80,8 +82,8 @@ resume:
     level: 50%
   - name: Drama
     level: 100%
-  - name: Markdown
-    level: 80%
+  - name: Markdowns
+    level: 90%
 portfolio:
   projects:
   - title: Tinder/Bumble Swipe Automation
