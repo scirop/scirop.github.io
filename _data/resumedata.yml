@@ -14,9 +14,9 @@ main:
     Occasional bad jokes and serious discussions about Italian wine might be expected from me from time to time.
   contactmessage: Please reach out to me. I'm so lonely.
   email: swarupsahoo@icloud.com
-  phone: (302)339-3159
+  phone: (302) 339-3159
   address:
-    street: Somewhere up north
+    street: Somewhere up North
     city: Austin
     state: Texas
     zip: '78727'
@@ -41,21 +41,21 @@ resume:
     MLE)
   education:
   - school: The University of Texas at Austin
-    degree: Masters in Operations Research
+    degree: Masters in Operations Research and Industrial Engineering
     graduated: May 2018
     description: Tried to learn a fuck tonne about Stats and Optimization. Used that
       to evaluate my poor life choices.
   - school: National Institute of Technology Rourkela
     degree: Bachelors in Mechanical Engineering
     graduated: May 2014
-    description: Learnt how to cook ramen in a water heater.
+    description: Learnt how to cook ramen in a water heater. Thermodynamics FTW!
   work:
   - company: USAA, San Antonio
     title: Data Scientist
     years: June 2018 - Present
-    description: Building ML applications using Python, ReactJS, D3JS, SQL, Hadoop
+    description: Avoiding the Starbucks coffee machine and building ML applications using Python, ReactJS, D3JS, SQL, Hadoop
       and sadness.
-  - company: MD Anderson Cancer Center, Houston
+  - company: UT MD Anderson Cancer Center, Houston
     title: Graduate Researcher
     years: Jan 2019 - May 2019
     description: Found a cure for Cancer
