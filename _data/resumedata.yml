@@ -50,9 +50,13 @@ resume:
     graduated: May 2014
     description: Learnt how to cook ramen in a water heater. Thermodynamics FTW!
   work:
+  - company: CCC Information Services, Austin
+    title: Data Scientist
+    years: Nov 2019 - Present
+    description: Surviving COVID induced cabin fever and occasionally developing ML shit
   - company: USAA, San Antonio
     title: Data Scientist
-    years: June 2018 - Present
+    years: Jun 2018 - Nov 2019
     description: Avoiding the Starbucks coffee machine and building ML applications using Python, ReactJS, D3JS, SQL, Hadoop
       and sadness.
   - company: UT MD Anderson Cancer Center, Houston
@@ -67,6 +71,10 @@ resume:
     title: Senior Engineer, Supply Chain Analytics
     years: Jul 2014 - Jun 2016
     description: Survived depression
+  - company: Mercedes-Benz India Pvt Ltd, Pune(India)
+    title: Intern
+    years: May 2013 - July 2013
+    description: slept
   skills:
   - name: Machine Learning
     level: 80%
