@@ -1,9 +1,22 @@
+body {
+    background-color: peachpuff;
+}
+
 .fit-picture {
     height: 5em;
-    float: left;
+    position: relative;
     padding: 2em;
 }
 
 .page-title {
-    font-family: 'Redressed', cursive;
+    font-family: 'Libre Baskerville', serif;
+    position: relative;
+}
+
+.page-body {
+    position: relative;
+}
+
+.detail {
+    font-family: 'Libre Baskerville', serif;
 }
