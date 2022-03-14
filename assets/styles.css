@@ -194,7 +194,7 @@ svg {
   fill: currentColor;
 }
 .fill-lead {
-  fill: peachpuff;
+  fill: rgb(238, 184, 159);
 }
 .section-header {
   color: #1f1f1f;
@@ -270,7 +270,7 @@ svg {
   height: 3.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  background-color: peachpuff;
+  background-color: rgb(238, 184, 159);
   border-radius: 9999px;
   color: #1f1f1f;
   -webkit-box-pack: center;
@@ -310,7 +310,7 @@ svg {
   bottom: 0;
   left: 0;
   border-radius: 9999px;
-  background-color: peachpuff;
+  background-color: rgb(238, 184, 159);
   z-index: 0;
   -webkit-transform: translateX(35%);
   transform: translateX(35%);
@@ -441,7 +441,7 @@ svg {
   display: inline-block;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
-  background-color: peachpuff;
+  background-color: rgb(238, 184, 159);
   border-radius: 1rem;
   padding: 0.25rem 0.75rem;
   font-family: Source Sans Pro, sans-serif;
@@ -596,7 +596,7 @@ svg {
   background-color: #1f1f1f;
 }
 .history-entry:first-child .dot-double:after {
-  background-color: peachpuff;
+  background-color: rgb(238, 184, 159);
 }
 .form-control {
   width: 100%;
@@ -638,7 +638,7 @@ svg {
   content: "";
 }
 .checkbox-on:after {
-  background-color: peachpuff;
+  background-color: rgb(238, 184, 159);
 }
 [data-checkbox-toggle] {
   cursor: pointer;
@@ -701,7 +701,7 @@ svg {
   border-radius: 9999px;
   width: 1rem;
   height: 1rem;
-  background-color: peachpuff;
+  background-color: rgb(238, 184, 159);
   cursor: pointer;
   outline: 0;
   -webkit-transform: translateY(-6.5px);
@@ -712,7 +712,7 @@ svg {
   border-radius: 9999px;
   width: 1rem;
   height: 1rem;
-  background-color: peachpuff;
+  background-color: rgb(238, 184, 159);
   cursor: pointer;
   outline: 0;
   -webkit-transform: translateY(-6.5px);
@@ -724,7 +724,7 @@ svg {
   border-radius: 9999px;
   width: 1rem;
   height: 1rem;
-  background-color: peachpuff;
+  background-color: rgb(238, 184, 159);
   cursor: pointer;
   outline: 0;
   -webkit-transform: translateY(-6.5px);
@@ -737,7 +737,7 @@ svg {
   background-color: #1f1f1f;
 }
 .bg-lead {
-  background-color: peachpuff;
+  background-color: rgb(238, 184, 159);
 }
 .border-back {
   border-color: #e8eaef;
@@ -977,7 +977,7 @@ svg {
   color: #1f1f1f;
 }
 .text-lead {
-  color: peachpuff;
+  color: rgb(238, 184, 159);
 }
 .text-xs {
   font-size: 0.75rem;
