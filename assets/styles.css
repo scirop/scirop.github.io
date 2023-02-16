@@ -194,7 +194,8 @@ svg {
   fill: currentColor;
 }
 .fill-lead {
-  fill: rgb(238, 184, 159);
+  /* fill: rgb(238, 184, 159); */
+  fill: gray
 }
 .section-header {
   color: #1f1f1f;
@@ -270,7 +271,8 @@ svg {
   height: 3.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  background-color: rgb(238, 184, 159);
+  /* background-color: rgb(238, 184, 159); */
+  background-color: gray;
   border-radius: 9999px;
   color: #1f1f1f;
   -webkit-box-pack: center;
@@ -310,7 +312,8 @@ svg {
   bottom: 0;
   left: 0;
   border-radius: 9999px;
-  background-color: rgb(238, 184, 159);
+  /* background-color: rgb(238, 184, 159); */
+  background-color: gray;
   z-index: 0;
   -webkit-transform: translateX(35%);
   transform: translateX(35%);
@@ -399,22 +402,28 @@ svg {
   width: calc(100% - 16px);
 }
 .skill:nth-child(3n + 1) {
-  border-color: #b2a2e6;
+  /* border-color: #b2a2e6; */
+  border-color: gray;
 }
 .skill:nth-child(3n + 1) svg {
-  color: #9079db;
+  /* color: #9079db; */
+  color: gray;
 }
 .skill:nth-child(3n + 2) {
-  border-color: #ecad8d;
+  /* border-color: #ecad8d; */
+  border-color: gray;
 }
 .skill:nth-child(3n + 2) svg {
-  color: #e58b5f;
+  /* color: #e58b5f; */
+  color: gray
 }
 .skill:nth-child(3n + 3) {
-  border-color: #68b6e3;
+  /* border-color: #68b6e3; */
+  border-color: gray;
 }
 .skill:nth-child(3n + 3) svg {
-  color: #3ba1db;
+  /* color: #3ba1db; */
+  color: gray;
 }
 @media (min-width: 992px) {
   .skill {
@@ -435,18 +444,19 @@ svg {
   flex-direction: column;
   list-style: none;
   padding: 0;
-  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
 }
 .tool {
   display: inline-block;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
-  background-color: rgb(238, 184, 159);
+  /* background-color: rgb(238, 184, 159); */
+  background-color: lightgray;
   border-radius: 1rem;
   padding: 0.25rem 0.75rem;
   font-family: Source Sans Pro, sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #1f1f1f;
   margin-bottom: 0.25rem;
 }
@@ -596,7 +606,8 @@ svg {
   background-color: #1f1f1f;
 }
 .history-entry:first-child .dot-double:after {
-  background-color: rgb(238, 184, 159);
+  /* background-color: rgb(238, 184, 159); */
+  background-color: lightgray;
 }
 .form-control {
   width: 100%;
@@ -638,7 +649,8 @@ svg {
   content: "";
 }
 .checkbox-on:after {
-  background-color: rgb(238, 184, 159);
+  /* background-color: rgb(238, 184, 159); */
+  background-color: lightgray;
 }
 [data-checkbox-toggle] {
   cursor: pointer;
@@ -737,7 +749,8 @@ svg {
   background-color: #1f1f1f;
 }
 .bg-lead {
-  background-color: rgb(238, 184, 159);
+  /* background-color: rgb(238, 184, 159); */
+  background-color: lightgray;
 }
 .border-back {
   border-color: #e8eaef;
@@ -1134,4 +1147,8 @@ svg {
 }
 .rw {
   font-size: 0; 
+}
+
+.toolImg {
+  vertical-align:middle;
 }
